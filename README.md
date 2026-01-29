@@ -21,11 +21,12 @@ The notebook uses **NCAA Men's Basketball NET Rankings** scraped live from [ncaa
 
 **Target:** Predict which quadrant (1-4) a team belongs to based on their ranking.
 
-## Usage
+## Setup
 
 ```bash
-# Activate virtual environment
+python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook sklearn_pipeline_example.ipynb
