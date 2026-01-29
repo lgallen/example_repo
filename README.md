@@ -19,7 +19,7 @@ The notebook uses **NCAA Men's Basketball NET Rankings** scraped live from [ncaa
 - `Conference` - Conference affiliation (categorical)
 - `Non_D1_Wins` - Wins against non-Division I opponents
 
-**Target:** Predict which quadrant (1-4) a team belongs to based on their ranking.
+**Target:** Predict which quad (1-4) a team belongs to based on their wins and other features.
 
 ## Setup
 
